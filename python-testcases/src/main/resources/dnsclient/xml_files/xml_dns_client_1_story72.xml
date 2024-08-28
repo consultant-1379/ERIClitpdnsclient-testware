@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<litp:dns-client xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:litp="http://www.ericsson.com/litp" xsi:schemaLocation="http://www.ericsson.com/litp litp-xml-schema/litp.xsd" id="n1dns_client03a">
+  <litp:dns-client-nameservers-collection id="nameservers">
+    <litp:nameserver id="n1_nameserver_03a">
+      <ipaddress>10.10.10.101</ipaddress>
+      <position>3</position>
+    </litp:nameserver>
+    <litp:nameserver id="_n1_nameserver_03b">
+      <ipaddress>0:0:0:0:0:ffff:a0a:a66</ipaddress>
+      <position>2</position>
+    </litp:nameserver>
+  </litp:dns-client-nameservers-collection>
+</litp:dns-client>
+
